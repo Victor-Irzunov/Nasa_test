@@ -5,3 +5,24 @@
 .img__nasa{
 	width: 60px;
 }
+.footer__box{
+	display: flex;
+}
+.footer__info{
+	display: flex;
+	margin-bottom: 15px;
+}
+.footer__status{
+	color: #fff;
+	width: 300px;
+}
+.ul{
+	display: flex;
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+.ul li{
+	margin-left: 15px;
+	font-size: 14px;
+}

@@ -6,11 +6,14 @@ import Nav from "react-bootstrap/Nav";
 import css from './NavBar.module.css';
 import nasa from './images/nasa.png';
 import {
-	LIST_ROUTE, DETAILS_ROUTE
+	LIST_ROUTE
 } from '../utils/consts';
+
 
 const NavBar = () => {
 	const history = useHistory()
+
+	
 
 	return (
 		<Navbar className={css.navBar}>
@@ -18,7 +21,7 @@ const NavBar = () => {
 				<Navbar.Brand href="/" onClick={() => {
 					history.push(LIST_ROUTE)
 				}}>
-					<img src={nasa} className={css.img__nasa} />
+					<img src={nasa} className={css.img__nasa} alt='nasa' />
 				</Navbar.Brand>
 				<Nav className="me-auto">
 
@@ -26,17 +29,18 @@ const NavBar = () => {
 						history.push(LIST_ROUTE)
 					}} className={css.nav}>List</Nav.Link>
 					<Nav.Link
-						onClick={() => {
-							history.push(DETAILS_ROUTE)
-						}}
+						href={'https://www.nasa.gov/multimedia/imagegallery/iotd.html'}
+						target="_blank"
+						rel="noreferrer"
 						className={css.nav}>
-						Details
+						Galleries
 					</Nav.Link>
-					<Nav.Link onClick={() => {
-						history.push(DETAILS_ROUTE)
-					}}
+					<Nav.Link
+						href={'https://www.nasa.gov/multimedia/nasatv/index.html#public'}
+						target="_blank"
+						rel="noreferrer"
 						className={css.nav}>
-						Pricing
+						NASA TV
 					</Nav.Link>
 
 				</Nav>

@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";  //, { useContext } 
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { publicRoutes } from "../routes";
 import { LIST_ROUTE } from "../utils/consts";
-import { Context } from "../index";
+// import { Context } from "../index";
 
 const AppRouter = () => {
-	const { object } = useContext(Context)
+	// const { object } = useContext(Context)
 	return (
 		<Switch>
 			{publicRoutes.map(({ path, Component }) =>

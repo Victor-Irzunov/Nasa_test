@@ -79,7 +79,7 @@ animation: animate linear infinite;
 	z-index: 1;
 	animation: animateCloud 50s linear infinite;
 }
-.cloud2
+/* .cloud2
 {
 	position: absolute;
 	top: 0;
@@ -87,7 +87,7 @@ animation: animate linear infinite;
 	max-width: 500px;
 	z-index: 1;
 	animation: animateCloud 35s linear infinite;
-}
+} */
 .cloud3
 {
 	position: absolute;
@@ -107,7 +107,7 @@ animation: animate linear infinite;
 	animation: animateCloud 70s linear infinite;
 	animation-delay: -20s;
 }
-.cloud5
+/* .cloud5
 {
 	position: absolute;
 	top: 150px;
@@ -126,7 +126,7 @@ animation: animate linear infinite;
 	z-index: 1;
 	animation: animateCloud 30s linear infinite;
 	animation-delay: -10s;
-}
+} */
 @keyframes animateCloud
 {
 	0%

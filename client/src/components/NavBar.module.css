@@ -20,7 +20,7 @@
 	height: 30px;
 	background-color: #555555;
 	position: absolute;
-	top: 5px;
+	top: 10px;
 	left: 0px;
 }
 .nav:nth-child(3):before{
@@ -29,7 +29,7 @@
 	height: 30px;
 	background-color: #555555;
 	position: absolute;
-	top: 5px;
+	top: 10px;
 	left: 0px;
 }
 .img__nasa{

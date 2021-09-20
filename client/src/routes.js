@@ -9,7 +9,7 @@ export const publicRoutes = [
 		Component: List
 	},
 	{
-		path: DETAILS_ROUTE,
+		path: DETAILS_ROUTE + '/:id',
 		Component: Details
 	},
 	{
