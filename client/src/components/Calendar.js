@@ -3,15 +3,13 @@ import { Context } from "../index"
 import { propTypes } from "react-bootstrap/esm/Image";
 import './Calendar.css';
 
-// import Container from "react-bootstrap/esm/Container";
-
 const Calendar = () => {
 	const { object } = useContext(Context)
 	const [date, setDate] = useState('')
 
 	return (
 		<div className="calendar__block">
-			<h6>Get a list of asteroids based on the date of their closest approach to Earth:</h6>
+			<h5>Get a list of asteroids based on the date of their closest approach to Earth:</h5>
 			<form>
 				<div>
 					<div className="wrapper">

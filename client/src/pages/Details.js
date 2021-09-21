@@ -32,20 +32,20 @@ const Details = () => {
 						<div className={css.details__box}>
 						<div>
 						<ul>
-							<li>name: {obj.name}</li>
-							<li>absolute_magnitude_h: {obj.absolute_magnitude_h}</li>
+							<li>name: <span>{obj.name}</span></li>
+							<li>absolute_magnitude_h: <span>{obj.absolute_magnitude_h}</span></li>
 							<li>estimated_diameter (kilometers):
 								<ul>
 									<li>
-										estimated_diameter_max: {obj.estimated_diameter.kilometers.estimated_diameter_max}
+										estimated_diameter_max: <span>{obj.estimated_diameter.kilometers.estimated_diameter_max}</span>
 									</li>
 									<li>
-										estimated_diameter_min: {obj.estimated_diameter.kilometers.estimated_diameter_min}
+										estimated_diameter_min: <span>{obj.estimated_diameter.kilometers.estimated_diameter_min}</span>
 									</li>
 								</ul>
 							</li>
 							<li>
-								is potentially hazardous asteroid: {obj.is_potentially_hazardous_asteroid === true ? 'Yes' : 'No'}
+								is potentially hazardous asteroid: <span>{obj.is_potentially_hazardous_asteroid === true ? 'Yes' : 'No'}</span>
 							</li>
 							<li>
 								nasa_jpl_url: <a href={obj.nasa_jpl_url}>{obj.nasa_jpl_url}</a>

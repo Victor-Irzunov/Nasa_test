@@ -1,5 +1,5 @@
 .main__block{
-	display: flex;
+	/* display: flex; */
 	margin: 0 auto;
 	background: rgba(255, 255, 255, 0.1);
 	box-shadow: 0 25px 45px rgba(0,0,0,0.1);
@@ -8,11 +8,16 @@
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(20px);
 	border-radius: 10px;
-	padding: 20px 40px 10px 40px;
-	min-width: 300px;
+	padding: 20px 40px 10px 50px;
+	min-width: 350px;
 	z-index: 100000;
 }
-
+.main__block_box{
+	display: flex;
+}
+.main__block h2{
+	text-align: center;
+}
 .block__list{
 	display: flex;
 	flex-direction: column;
@@ -22,7 +27,7 @@
 	margin: 0 auto;
 }
 .title__date{
-	color: #fff;
+	color: #24ff0b;
 	text-align: center;
 }
 .list
@@ -38,7 +43,7 @@
 {
 	position: relative;
 	left: 0;
-	color: #999;
+	color: #fff;
 	list-style: none;
 	margin: 4px 0;
 	border-left: 2px solid #24ff0b;
@@ -80,7 +85,28 @@
 .block__asteroid{
 	display: flex;
 	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 40px;
+	padding-bottom: 50px;
+	
 }
 .asteroid{
 	width: 350px;
+}
+
+.filter{
+	/* padding-top: 40px; */
+	color: #fff;
+	font-size: 20px;
+	
+}
+.filter__img{
+	width: 26px;
+}
+.span{
+	cursor: pointer;
+}
+.span:hover{
+	color: #24ff0b;
 }

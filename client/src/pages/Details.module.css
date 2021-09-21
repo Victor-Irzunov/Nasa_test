@@ -18,7 +18,14 @@
 	display: flex;
 }
 .details__block ul li{
-	color: #0080ff;
+	color: #fff;
+	cursor: pointer;
+}
+.details__block ul li span{
+	color: #24ff0b;
+}
+.details__block ul li:hover{
+	color: #000;
 }
 .asteroid{
 	width: 180px;
