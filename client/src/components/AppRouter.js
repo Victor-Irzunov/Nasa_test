@@ -1,7 +1,7 @@
 import React from "react";  //, { useContext } 
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { publicRoutes } from "../routes";
-import { LIST_ROUTE } from "../utils/consts";
+import { NOTFOUND_ROUTE } from "../utils/consts";
 // import { Context } from "../index";
 
 const AppRouter = () => {
@@ -11,7 +11,7 @@ const AppRouter = () => {
 			{publicRoutes.map(({ path, Component }) =>
 				<Route key={path} path={path} component={Component} exact />
 			)}
-			<Redirect to={LIST_ROUTE} />
+			<Redirect to={NOTFOUND_ROUTE} />
 		</Switch>
 	)
 }

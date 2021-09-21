@@ -27,7 +27,7 @@ const NavBar = () => {
 
 					<Nav.Link onClick={() => {
 						history.push(LIST_ROUTE)
-					}} className={css.nav}>List</Nav.Link>
+					}} className={css.nav}>List of asteroids</Nav.Link>
 					<Nav.Link
 						href={'https://www.nasa.gov/multimedia/imagegallery/iotd.html'}
 						target="_blank"

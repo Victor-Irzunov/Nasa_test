@@ -71,7 +71,7 @@ animation: animate linear infinite;
 		transform: translateY(-100px);
 	}
 }
-.cloud1
+/* .cloud1
 {
 	position: absolute;
 	top: 0;
@@ -79,7 +79,7 @@ animation: animate linear infinite;
 	max-width: 600px;
 	z-index: 1;
 	animation: animateCloud 50s linear infinite;
-}
+} */
 /* .cloud2
 {
 	position: absolute;
@@ -98,7 +98,7 @@ animation: animate linear infinite;
 	z-index: 1;
 	animation: animateCloud 80s linear infinite;
 }
-.cloud4
+/* .cloud4
 {
 	position: absolute;
 	top: 200px;
@@ -107,7 +107,7 @@ animation: animate linear infinite;
 	z-index: 1;
 	animation: animateCloud 70s linear infinite;
 	animation-delay: -20s;
-}
+} */
 /* .cloud5
 {
 	position: absolute;
