@@ -6,9 +6,12 @@ import ObjectStore from './store/ObjectStore';
 export const Context = createContext(null)
 
 ReactDOM.render(
-  <Context.Provider value={{
-    object: new ObjectStore()
-  }}>
+  <Context.Provider
+    value={
+      {
+        object: new ObjectStore()
+      }
+    }>
     <App />
   </Context.Provider>,
   document.getElementById('root')
