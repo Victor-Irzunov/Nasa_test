@@ -32,6 +32,9 @@
 	top: 10px;
 	left: 0px;
 }
+.nav:hover{
+	color: #FC3D21 !important;
+}
 .img__nasa{
 	width: 90px;
 }
