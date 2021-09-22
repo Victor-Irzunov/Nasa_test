@@ -13,8 +13,6 @@ import {
 const NavBar = () => {
 	const history = useHistory()
 
-	
-
 	return (
 		<Navbar className={css.navBar}>
 			<Container>

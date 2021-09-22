@@ -1,6 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Context } from "../index"
-import { propTypes } from "react-bootstrap/esm/Image";
+import { Context } from "../index";
 import './Calendar.css';
 
 const Calendar = () => {
