@@ -38,7 +38,7 @@
 .list  ul
 {
 	position: relative;
-	
+	padding-left: 0;
 }
 .list  ul li
 {
